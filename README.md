@@ -4,9 +4,9 @@ Single Page Application Table on Vue3 + Vuex + Axios + Node JS + MySQL.
 
 ## Local Run
 
-- Склонируйте репозиторий
-- Запустите `npm install` в корне локального репозитория
-- Запустите `npm start`
+- Clone the repository
+- Run `npm install` in a root directory of your repo
+- Run `npm start`
 
 ## Scripts
 
