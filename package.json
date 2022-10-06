@@ -1,11 +1,16 @@
 {
   "name": "spa-table",
   "version": "1.0.0",
-  "description": "SPA table on Vue 3, Axios, Node JS and MySQL",
+  "description": "SPA Table on Vue 3, Axios, Node JS and MySQL",
   "workspaces": [
     "packages/*"
   ],
-  "scripts": {},
+  "scripts": {
+    "build": "npm run build -w @spa-table/app",
+    "watch": "npm run dev -w @spa-table/app",
+    "serve": "npm run serve -w @spa-table/api",
+    "start": "npm-run-all --parallel serve watch"
+  },
   "author": "Egor Golikov",
   "license": "ISC",
   "devDependencies": {

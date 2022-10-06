@@ -1,0 +1,19 @@
+{
+  "name": "@spa-table/api",
+  "version": "1.0.0",
+  "description": "API for SPA Table app",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "serve": "npx nodemon index.js"
+  },
+  "author": "Egor Golikov",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  },
+  "dependencies": {
+    "bluebird": "^3.7.2",
+    "mysql2": "^2.3.3"
+  }
+}
