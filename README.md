@@ -1,6 +1,6 @@
 # SPA Table
 
-Single Page Application Table on Vue3 + Vuex + Axios + Node JS + MySQL.
+Single Page Application Table on Vue3 + Vuex + Axios + Node JS + MySQL
 
 ## Local Run
 
